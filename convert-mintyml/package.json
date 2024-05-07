@@ -1,0 +1,7 @@
+{
+  "name": "convert-mintyml",
+  "main": "index.js",
+  "dependencies": {
+    "mintyml": "^0.1.14"
+  }
+}

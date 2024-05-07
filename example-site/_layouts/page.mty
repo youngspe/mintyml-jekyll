@@ -1,0 +1,15 @@
+{% render_mintyml %}
+html {
+header {
+  h1> Site header
+}
+
+main {
+  <[raw[{{ content }}]]>
+}
+
+footer {
+  small> Site footer
+}
+}
+{% endrender_mintyml %}
