@@ -11,7 +11,13 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{MinTyML support for Jekyll.}
   gem.homepage      = "https://github.com/youngspe/mintyml-jekyll"
 
-  gem.files         = ["lib/mintyml.rb", "lib/convert-mintyml/index.js", "lib/convert-mintyml/package.json"]
+  gem.files         = [
+    "lib/mintyml-jekyll.rb",
+    "lib/mintyml-jekyll/mintyml-converter.rb",
+    "lib/mintyml-jekyll/render-mintyml.rb",
+    "convert-mintyml/index.js",
+    "convert-mintyml/package.json"
+  ]
   gem.require_paths = ["lib"]
   gem.license       = "MIT"
 
