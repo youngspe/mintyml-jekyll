@@ -6,9 +6,8 @@ module Jekyll; module MintymlFilters
   #
   # Returns the escaped String.
   def mintyml_escape(input)
-    s = input.to_s
-    s.gsub!(/[<>{}\[\]"']/, '\\\\\0')
-    s
+    return input unless input
+    input.to_s.gsub(/[<>{}\[\]"']/, '\\\\\0')
   end
 end; end
 

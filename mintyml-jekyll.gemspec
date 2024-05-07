@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "mintyml-jekyll"
-  gem.version       = "0.1.1"
+  gem.version       = "0.1.2"
   gem.authors       = ["Spencer Young"]
   gem.email         = ["spencerwyoung@outlook.com"]
   gem.description   = %q{Write pages in MinTyML, a minimalist alternative syntax for HTML.}
