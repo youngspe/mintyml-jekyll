@@ -1,6 +1,9 @@
 `mintyml-jekyll` is a [Jekyll](https://jekyllrb.com/)
 plugin that enables writing Jekyll pages in [MinTyML](https://github.com/youngspe/mintyml#readme).
 
+This plugin uses the [`mintyml` NPM package](https://www.npmjs.com/package/mintyml)
+and assumes that Node and NPM are installed.
+
 ## Features
 
 This plugin provides a MinTyML Converter, a `mintyml_escape` filter, and a `render_mintyml` Tag.
