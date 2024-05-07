@@ -10,7 +10,7 @@ This plugin provides a MinTyML Converter, a `mintyml_escape` filter, and a `rend
 
 ### MinTyML Converter
 
-With this plugin installed, any file with front matter and a file extension of `.mty`, `.minty`, or `.mintyml`
+With this plugin installed, any page (**not** including `_layouts` or `_includes`) with front matter and a file extension of `.mty`, `.minty`, or `.mintyml`
 is automatically converted from MinTyML to HTML when building the site.
 
 ### `mintyml_escape` Filter
