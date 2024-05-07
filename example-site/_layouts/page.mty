@@ -1,15 +1,19 @@
 {% render_mintyml %}
 html {
 header {
-  h1> Site header
+  Site header
 }
 
 main {
-  <[raw[{{ content }}]]>
+  article {
+    h1> {{ page.title | mintyml_escape }}
+
+    <[raw[{{ content }}]]>
+  }
 }
 
 footer {
-  small> Site footer
+  Site footer
 }
 }
 {% endrender_mintyml %}
